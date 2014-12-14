@@ -144,6 +144,24 @@ switch (_code) do
 				};
 			};
 		};
+		
+		//surrender... shift + t
+		if(_shift) then {_handled = true;};
+		
+		if (_shift) then
+		{
+			if (vehicle player == player && !(player getVariable ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
+			{
+				if (player getVariable ["surrender", false]) then
+				{
+					player setVariable ["surrender", false, true];
+				} else
+				{
+					[] spawn life_fnc_surrender;
+				};
+			};
+		};
+		
 	};
 	//L Key?
 	case 38: 
@@ -207,46 +225,48 @@ switch (_code) do
 	//U Key
 	case 22:
 	{
-		if(!_alt && !_ctrlKey) then {
-			if(vehicle player == player) then {
+		if(!_alt && !_ctrlKey) then
+		{
+			if(vehicle player == player) then
+			{
 				_veh = cursorTarget;
-			} else {
+			}
+				else
+			{
 				_veh = vehicle player;
 			};
 			
-			if(_veh isKindOf "House_F" && playerSide == civilian) then {
-				if(_veh in life_vehicles && player distance _veh < 8) then {
-					_door = [_veh] call life_fnc_nearestDoor;
-					if(_door == 0) exitWith {hint localize "STR_House_Door_NotNear"};
-					_locked = _veh getVariable [format["bis_disabled_Door_%1",_door],0];
-					if(_locked == 0) then {
-						_veh setVariable[format["bis_disabled_Door_%1",_door],1,true];
-						_veh animate [format["door_%1_rot",_door],0];
-						systemChat localize "STR_House_Door_Lock";
-					} else {
-						_veh setVariable[format["bis_disabled_Door_%1",_door],0,true];
-						_veh animate [format["door_%1_rot",_door],1];
-						systemChat localize "STR_House_Door_Unlock";
+			_locked = locked _veh;
+			
+			if(_veh in life_vehicles && player distance _veh < 6.5 OR vehicle player == _veh) then
+			{
+				if(_locked == 2) then
+				{
+					if(local _veh) then
+					{
+						_veh lock 0;
+					}
+						else
+					{
+						[[_veh,0], "life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 					};
-				};
-			} else {
-				_locked = locked _veh;
-				if(_veh in life_vehicles && player distance _veh < 8) then {
-					if(_locked == 2) then {
-						if(local _veh) then {
-							_veh lock 0;
-						} else {
-							[[_veh,0],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
-						};
-						systemChat localize "STR_MISC_VehUnlock";
-					} else {
-						if(local _veh) then {
-							_veh lock 2;
-						} else {
-							[[_veh,2],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
-						};	
-						systemChat localize "STR_MISC_VehLock";
+					systemChat "You have unlocked your vehicle.";
+					[[_veh],"life_fnc_UnLockCarSound",nil,true] spawn life_fnc_MP;
+					Player say3D "car_lock";
+				}
+					else
+				{
+					if(local _veh) then
+					{
+						_veh lock 2;
+					}
+						else
+					{
+						[[_veh,2], "life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 					};
+					systemChat "You have locked your vehicle.";
+					[[_veh],"life_fnc_LockCarSound",nil,true] spawn life_fnc_MP;
+					Player say3D "unlock";
 				};
 			};
 		};

@@ -106,6 +106,7 @@ class Life_Client_Core
 		class robAction {};
 		class captureHideout {};
 		class gather {};
+		class surrender {};
 	};
 	
 	class Housing
@@ -145,6 +146,7 @@ class Life_Client_Core
 		class weaponShopCfg {};
 		class vehicleWeightCfg {};
 		class houseConfig {};
+        class seizeCfg {};
 		
 		//Clothing Store Configs
 		class clothing_cop {};
@@ -219,6 +221,8 @@ class Life_Client_Core
 		class saveGear {};
 		class loadGear {};
 		class stripDownPlayer {};
+        class UnLockCarSound {};
+        class LockCarSound {};
 	};
 	
 	class Network
@@ -293,6 +297,8 @@ class Life_Client_Core
 		class fedCamDisplay {};
 		class copLoadout {};
 		class ticketPaid {};
+        class seizePlayerWeapon {};
+        class seizePlayerWeaponAction {};
 	};
 	
 	class Gangs

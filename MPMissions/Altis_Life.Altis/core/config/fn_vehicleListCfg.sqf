@@ -72,7 +72,6 @@ switch (_shop) do
 		[
 			["B_Quadbike_01_F",2500],
 			["B_G_Offroad_01_F",15000],
-			["O_MRAP_02_F",150000],
 			["B_Heli_Light_01_F",325000]
 		];
 		
@@ -91,8 +90,6 @@ switch (_shop) do
 		["C_SUV_01_F",20000];
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_return pushBack
-			["B_MRAP_01_F",30000];
 		};
 	};
 	

@@ -1,9 +1,10 @@
 author = "Tonic";
 onLoadName = "Altis Life RPG v3.1.4.8";
 onLoadMission = "A RPG game mode developed by Tonic";
+loadScreen = "nitrado_loadScreen.paa";
 joinUnassigned = 1;
 respawn = BASE;
-respawndelay = 5;
+respawndelay = 0.0001;
 disabledAI = true;
 disableChannels[]={0,1,2};
 enableDebugConsole = 1;
@@ -54,6 +55,19 @@ class CfgSounds
 		titles[] = {};
 	};
 	
+    class car_lock
+    {
+        name = "car_lock";
+        sound[] = {"\sounds\LockCarSound.ogg", 1.0, 1};
+        titles[] = {};
+    };
+    class unlock
+    {
+        name = "unlock";
+        sound[] = {"\sounds\UnLockCarSound.ogg", 1.0, 1};
+        titles[] = {};
+    };
+  
 	class flashbang
 	{
 		name = "flashbang";

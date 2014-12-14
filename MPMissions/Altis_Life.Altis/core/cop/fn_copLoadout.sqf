@@ -12,6 +12,7 @@ waitUntil {scriptDone _handle};
 
 //Load player with default cop gear.
 player addUniform "U_Rangemaster";
+[] call life_fnc_copUniform; // Line added for cop uniforms
 player addVest "V_Rangemaster_belt";
 
 player addWeapon "hgun_P07_snds_F";
