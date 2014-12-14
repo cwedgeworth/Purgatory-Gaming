@@ -177,6 +177,8 @@ class Life_Client_Core
 		class updateViewDistance {};
 		class settingsMenu {};
 		class settingsInit {};
+		class wantedadd2 {}; //Wanted + (Added by Dodge)
+		class wanted2 {}; //Wanted + (Added by Dodge)
 	};
 	
 	class Functions
