@@ -25,6 +25,7 @@ switch (_vehicle) do
 			case 6: {_color = "Black"};
 			case 7: {_color = "Taxi"};
 			case 8: {_color = "Police"};
+			case 9: {_color = "Swat";};
 		};
 	};
 	
@@ -37,9 +38,10 @@ switch (_vehicle) do
 			case 2: {_color = "Blue";};
 			case 3: {_color = "Dark Blue";};
 			case 4: {_color = "Yellow";};
-			case 5: {_color = "White"};
-			case 6: {_color = "Grey"};
-			case 7: {_color = "Black"};
+			case 5: {_color = "White";};
+			case 6: {_color = "Grey";};
+			case 7: {_color = "Black";};
+			case 8: {_color = "Police";};
 		};
 	};
 	
@@ -99,7 +101,7 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Brown"};
+			case 0: {_color = "Police"};
 			case 1: {_color = "Digi Desert"};
 			case 2: {_color = "Black"};
 			case 3: {_color = "Blue"};
@@ -115,7 +117,7 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Sheriff"};
+			case 0: {_color = "Police"};
 			case 1: {_color = "Black"};
 			case 2: {_color = "Civ Blue"};
 			case 3: {_color = "Civ Red"};
