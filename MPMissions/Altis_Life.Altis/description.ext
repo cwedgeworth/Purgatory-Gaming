@@ -57,9 +57,9 @@ class CfgSounds
 	
          class car_lock
          {
-        name = "car_lock";
-        sound[] = {"\sounds\LockCarSound.ogg", 1.0, 1};
-        titles[] = {};
+                name = "car_lock";
+                sound[] = {"\sounds\LockCarSound.ogg", 1.0, 1};
+                titles[] = {};
          };
          class unlock
          {
