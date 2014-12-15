@@ -20,6 +20,8 @@ switch (_filter) do
 	case 0:
 	{
 		_ret pushBack ["U_Rangemaster","Cop Uniform",25];
+		_ret pushBack ["textures\police_shirt.paa", "Police Shirt",25];
+		_ret pushBack ["textures\swat_shirt.paa", "SWAT", 5000];
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret pushBack ["U_B_CombatUniform_mcam_tshirt",nil,350];
@@ -70,6 +72,7 @@ switch (_filter) do
 	case 3:
 	{
 		_ret pushBack ["V_Rangemaster_belt",nil,800];
+		_ret pushBack ["textures\police_vest", "Police Vest", 2500];
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret pushBack ["V_PlateCarrier2_rgr",nil,1500];
