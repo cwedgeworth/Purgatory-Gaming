@@ -38,13 +38,14 @@ switch (_filter) do
 	{
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret pushBack ["H_HelmetB_plain_mcamo",nil,75];
-			_ret pushBack ["H_Booniehat_mcamo",nil,120];
+			_ret pushBack ["H_MilCap_blue",nil,100];
+			_ret pushBack ["H_Watchcap_sgg",nil,100];
 		};
 		
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_ret pushBack ["H_MilCap_mcamo",nil,100];
+			_ret pushBack ["H_Beret_02",nil,100];
+			_ret pushBack ["H_Beret_Colonel", nil, 100];
 		};
 	};
 	
@@ -69,10 +70,17 @@ switch (_filter) do
 	//Vest
 	case 3:
 	{
-		_ret pushBack ["V_Rangemaster_belt",nil,800];
+		_ret pushBack ["V_Rangemaster_belt",nil,500];
+		
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret pushBack ["V_PlateCarrier2_rgr",nil,1500];
+			_ret pushBack ["V_RebreatherB",nil,1000];
+			_ret pushBack ["V_TacVest_blk_POLICE",nil,1000];
+		};
+
+		if(__GETC__(life_coplevel) >= 4) then
+		{
+			_ret pushBack ["V_PlateCarrier1_blk",nil,1500];
 		};
 	};
 	
