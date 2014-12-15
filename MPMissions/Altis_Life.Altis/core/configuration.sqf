@@ -29,6 +29,7 @@ life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
 life_removeWanted = false;
+life_fatigue = 0.5; //Set the max fatigue limit (50%)
 
 //Persistent Saving
 __CONST__(life_save_civ,TRUE); //Save weapons for civs?

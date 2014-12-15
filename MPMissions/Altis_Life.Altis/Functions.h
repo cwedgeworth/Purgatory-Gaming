@@ -27,6 +27,7 @@ class SpyGlass
 		class payLoad{};
 		class variableCheck{};
 		class initSpy {};
+		class fatigueReset {}; //Add this line
 	};
 };
 
