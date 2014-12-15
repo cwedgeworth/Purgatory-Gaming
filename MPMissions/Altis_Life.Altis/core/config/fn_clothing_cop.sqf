@@ -23,11 +23,11 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret pushBack ["U_B_CombatUniform_mcam_tshirt",nil,350];
-			_ret pushBack ["U_B_survival_uniform",nil,1250];
+			//_ret pushBack ["U_B_survival_uniform",nil,1250];
 		};
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_ret pushBack ["U_B_CombatUniform_mcam_worn",nil,550];
+			//_ret pushBack ["U_B_CombatUniform_mcam_worn",nil,550];
 		};
 		[] call life_fnc_copUniform;
 	};
