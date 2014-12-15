@@ -33,7 +33,6 @@ switch(_type) do
 	case "483": {_type = ["Drug Trafficking",9500]};
 	case "459": {_type = ["Burglary",6500]};
 	
-	
 	case "1": {_type = ["Driving without a license",1500]};
     case "2": {_type = ["Attempted theft of civilian vehicle",3500]};
     case "3": {_type = ["Theft of civilian vehicle",5000]};
@@ -71,7 +70,7 @@ switch(_type) do
     case "35": {_type = ["Flying without a pilots license",1500]};
     case "36": {_type = ["Flying/hovering below 150m in city limits",2000]};
     case "37": {_type = ["Prison Break",25000]};
-   
+	
 	default {_type = [];};
 };
 
