@@ -69,7 +69,7 @@ class life_wantedadd2 {
 
 		class CloseButtonKey : Life_RscButtonMenu {
 			idc = -1;
-			text = "Schliessen";
+			text = "Close";
 			onButtonClick = "closeDialog 0;";
 			x = -0.06 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.88 - (1 / 25);
@@ -81,7 +81,7 @@ class life_wantedadd2 {
 
 		class Adminwanted : Life_RscButtonMenu {
 			idc = -1;
-			text = "Hinzufuegen";
+			text = "Add";
 			onButtonClick = "[] call life_fnc_wanted2;";
 			x = 0.26 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.88 - (1 / 25);
