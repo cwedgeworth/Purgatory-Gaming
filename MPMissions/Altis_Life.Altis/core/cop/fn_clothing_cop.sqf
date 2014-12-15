@@ -72,7 +72,7 @@ switch (_filter) do
 	case 3:
 	{
 		_ret pushBack ["V_Rangemaster_belt",nil,800];
-		_ret pushBack ["textures\police_vest", "Police Vest", 2500];
+		_ret pushBack ["textures\police_vest.paa", "Police Vest", 2500];
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret pushBack ["V_PlateCarrier2_rgr",nil,1500];
