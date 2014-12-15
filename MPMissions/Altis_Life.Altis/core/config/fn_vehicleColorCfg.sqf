@@ -50,8 +50,7 @@ switch (_vehicle) do
 			["#(ai,64,64,1)Fresnel(0.3,3)","fed"],
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
 			["textures\police_offroad.paa","Cop"],
-			["textures\swat_offroad.paa","Cop"],
-			["textures\suv_undercover_co.paa", "Cop"]
+			["textures\swat_offroad.paa","Cop"]
 		];
 	};
 	
