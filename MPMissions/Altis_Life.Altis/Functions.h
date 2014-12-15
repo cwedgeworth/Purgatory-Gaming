@@ -27,7 +27,6 @@ class SpyGlass
 		class payLoad{};
 		class variableCheck{};
 		class initSpy {};
-		class fatigueReset {}; //Add this line
 	};
 };
 
@@ -222,8 +221,7 @@ class Life_Client_Core
 		class saveGear {};
 		class loadGear {};
 		class stripDownPlayer {};
-        class UnLockCarSound {};
-        class LockCarSound {};
+        class fatigueReset {}; //Add this line
 	};
 	
 	class Network
