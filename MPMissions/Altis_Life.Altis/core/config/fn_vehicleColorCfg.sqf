@@ -49,10 +49,8 @@ switch (_vehicle) do
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa","civ"],
 			["#(ai,64,64,1)Fresnel(0.3,3)","fed"],
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["textures\police_offroad.paa","Cop"],
-			["textures\swat_offroad.paa","Cop"],
-			["textures\suv_undercover_co.paa","Cop"],
-			["textures\offroad_EMS.paa","med"]
+			["textures\Vehicles\APD\apd_offroad.paa","Cop"],
+			["textures\Vehicles\EMS\ems_offroad.paa","med"]
 		];
 	};
 	
@@ -68,7 +66,7 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa","civ"],
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa","civ"],
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa","civ"],
-			["textures\hatch_police_co.paa","Cop"]
+			["textures\Vehicles\APD\apd_hatchback.paa","Cop"]
 		];
 	};
 	
@@ -79,8 +77,8 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
-			["textures\police_suv.paa","Cop"],
-			["textures\suv_EMS.paa","med"]
+			["textures\Vehicles\APD\apd_suv.paa","Cop"],
+			["textures\Vehicles\EMS\ems_suv.paa","med"]
 		];
 	};
 	
@@ -106,7 +104,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\quad_police_co.paa","Cop"],
+			["textures\Vehicles\APD\apd_quad.paa","Cop"],
 			["\A3\Soft_F\Quadbike_01\Data\quadbike_01_opfor_co.paa","reb"],
 			["\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_black_co.paa","civ"],
 			["\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_blue_co.paa","civ"],
@@ -122,7 +120,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\police_heli.paa","cop"],
+			["textures\Vehicles\APD\apd_littlebird.paa","cop"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa","fed"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_blue_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_co.paa","civ"],
@@ -136,7 +134,7 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_vrana_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
-			["textures\EMS_Hummingbird.paa","med"]
+			["textures\Vehicles\EMS\ems_littlebird.paa","med"]
 		];
 	};
 	
