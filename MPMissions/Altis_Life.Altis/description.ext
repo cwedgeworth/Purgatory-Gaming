@@ -55,20 +55,7 @@ class CfgSounds
 		titles[] = {};
 	};
 	
-        class car_lock
-        {
-                name = "car_lock";
-                sound[] = {"\sounds\LockCarSound.ogg", 1.0, 1};
-                titles[] = {};
-        };
-        class unlock
-        {
-                name = "unlock";
-                sound[] = {"\sounds\UnLockCarSound.ogg", 1.0, 1};
-                titles[] = {};
-        };
-  
-	class flashbang
+  	class flashbang
 	{
 		name = "flashbang";
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
