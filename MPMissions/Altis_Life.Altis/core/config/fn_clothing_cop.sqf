@@ -20,7 +20,7 @@ switch (_filter) do
 	case 0:
 	{
 		_ret pushBack ["U_Rangemaster","Cop Uniform",25];
-		_ret pushBack ["textures\police_shirt.paa","Cop Shirt",25];
+		_ret pushBack ["textures\Clothing\police_shirt.paa","Cop Shirt",25];
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret pushBack ["U_B_CombatUniform_mcam_tshirt",nil,350];
@@ -90,10 +90,11 @@ switch (_filter) do
 		_ret =
 		[
 			["B_Kitbag_cbr",nil,800],
-			["B_FieldPack_cbr",nil,500],
-			["B_AssaultPack_cbr",nil,700],
-			["B_Bergen_sgg",nil,2500],
-			["B_Carryall_cbr",nil,3500]
+			["B_FieldPack_oucamo",nil,500],
+			["B_FieldPack_blk",nil,500],
+			["B_AssaultPack_blk",nil,700],
+			["B_Bergen_blk",nil,2500],
+			["B_Carryall_oucamo",nil,3500]
 		];
 	};
 };
