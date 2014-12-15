@@ -222,6 +222,7 @@ class Life_Client_Core
 		class loadGear {};
 		class stripDownPlayer {};
         class fatigueReset {}; //Add this line
+		class fadeSound {};
 	};
 	
 	class Network
