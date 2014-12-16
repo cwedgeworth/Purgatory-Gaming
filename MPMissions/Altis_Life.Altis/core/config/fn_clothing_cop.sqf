@@ -37,8 +37,7 @@ switch (_filter) do
 	{
 	    _ret pushBack ["H_Watchcap_sgg",nil,100];
 		_ret pushBack ["H_Beret_02",nil,100];
-		_ret pushBack ["H_MilCap_blue",nil,100];
-		
+		_ret pushBack ["H_MilCap_blue",nil,100];	
 		if(__GETC__(life_coplevel) > 2) then
 		{
 			_ret pushBack ["H_Beret_Colonel", nil, 100];
