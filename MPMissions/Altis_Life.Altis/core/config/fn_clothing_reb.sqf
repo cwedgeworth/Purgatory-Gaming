@@ -19,12 +19,16 @@ switch (_filter) do
 	{
 		[
 			["U_IG_Guerilla1_1",nil,5000],
+			["U_OG_leader",nil,7000],
 			["U_I_G_Story_Protagonist_F",nil,7500],
+			["U_BG_leader",nil,8500],
 			["U_I_G_resistanceLeader_F",nil,11500],
 			["U_O_SpecopsUniform_ocamo",nil,17500],
 			["U_O_PilotCoveralls",nil,15610],
 			["U_IG_leader","Guerilla Leader",15340],
-			["U_O_GhillieSuit",nil,50000]
+			["U_O_GhillieSuit",nil,50000],
+			["U_O_SpecopsUniform_ocamo",nil,45000],
+			["U_O_CombatUniform_oucamo",nil,47000],
 		];
 	};
 	
@@ -53,7 +57,10 @@ switch (_filter) do
 			["G_Sport_BlackWhite",nil,20],
 			["G_Squares",nil,10],
 			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55]
+			["G_Combat",nil,55],
+			["H_Shemag_khk",nil,105],
+			["H_Shemag_tan",nil,105],
+			["H_Beret_red",nil,250],
 		];
 	};
 	

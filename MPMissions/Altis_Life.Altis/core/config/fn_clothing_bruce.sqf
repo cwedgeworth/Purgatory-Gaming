@@ -31,7 +31,9 @@ switch (_filter) do
 		["U_C_HunterBody_grn","The Hunters Look",1500],
 		["U_C_WorkerCoveralls","Mechanic Coveralls",2500],
 		["U_OrestesBody","Surfing On Land",1100],
-		["U_NikosAgedBody","Casual Wears",5000]
+		["U_NikosAgedBody","Casual Wears",5000],
+		["U_Competitor","Taxi Man",5250],
+		["U_C_PriestBody","Man of God",6000]
 		];
 	};
 	

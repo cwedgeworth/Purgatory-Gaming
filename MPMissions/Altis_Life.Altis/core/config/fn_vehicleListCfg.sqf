@@ -72,6 +72,8 @@ switch (_shop) do
 		[
 			["B_Quadbike_01_F",2500],
 			["B_G_Offroad_01_F",15000],
+			["I_G_Offroad_01_F",25000],
+			["I_Truck_02_box_F",65000],
 			["B_Heli_Light_01_F",325000]
 		];
 		
@@ -84,6 +86,8 @@ switch (_shop) do
 	
 	case "cop_car":
 	{
+		_return pushBack
+		["C_Hatchback_01_F",3500];
 		_return pushBack
 		["C_Offroad_01_F",5000];
 		_return pushBack

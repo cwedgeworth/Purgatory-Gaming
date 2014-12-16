@@ -29,7 +29,6 @@ switch(_shop) do
 			{
 				["Altis Cop Shop",
 					[
-						["arifle_sdar_F","Taser Rifle",20000],
 						["hgun_P07_snds_F","Stun Pistol",2000],
 						["hgun_P07_F",nil,7500],
 						["HandGrenade_Stone","Flashbang",1700],
@@ -105,10 +104,13 @@ switch(_shop) do
 			{
 				["Altis Sergeant Officer Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
 						["HandGrenade_Stone","Flashbang",1700],
+						["SMG_02_ACO_F",nil,15000],						
+						["hgun_ACPC2_F",nil,17500],
+						["arifle_sdar_F","Taser Rifle",20000],
 						["arifle_MXC_F",nil,30000],
+						["arifle_Mk20_F",nil,22500],
+						["arifle_Mk20C_F",nil,22500],
 						["optic_Arco",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,100],
@@ -130,9 +132,9 @@ switch(_shop) do
 			{
 				["Mohammed's Jihadi Shop",
 					[
+						["arifle_SDAR_F",nil,20000],
 						["arifle_TRG20_F",nil,35000],
 						["arifle_Katiba_F",nil,50000],
-						["arifle_SDAR_F",nil,20000],
 						["optic_ACO_grn",nil,3500],
 						["optic_Holosight",nil,3600],
 						["acc_flashlight",nil,1000],
