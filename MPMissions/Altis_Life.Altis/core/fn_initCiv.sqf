@@ -26,3 +26,4 @@ if(life_is_arrested) then
 player addRating 9999999;
 
 [] call life_fnc_copUniform; // Line added for Cop Uniforms
+[[getPlayerUID player, profileName],"TON_fnc_loadBounties",false,false] spawn life_fnc_MP; //wanted persistent

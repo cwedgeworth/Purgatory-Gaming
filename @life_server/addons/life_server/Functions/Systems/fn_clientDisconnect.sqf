@@ -19,3 +19,4 @@ _name = _this select 2;
 } foreach allDeadMen;
 
 _uid spawn TON_fnc_houseCleanup;
+if(side _unit == civilian) then {[_uid,1] spawn life_fnc_wantedRemove;}; //wanted persistent
