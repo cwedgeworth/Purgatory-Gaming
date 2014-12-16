@@ -7,14 +7,35 @@ _display = findDisplay 9900;
 _list = _display displayCtrl 9902;
 
 //Purge List
-lbClear _list;
+//lbClear _list;
 
+
+//{
+//    _side = switch(side _x) do {case west: {"Cop"}; case civilian : //{"Civ"}; default {"Unknown"};};
+//    _list lbAdd format["%1 - %2", name _x,_side];
+//    _list lbSetdata [(lbSize _list)-1,str(_x)];
+//} foreach playableUnits;
+
+
+
+_units = [];
+{
+	_units pushBack (_x getVariable["realname",name _x]);
+} foreach playableUnits;
 
 {
-    _side = switch(side _x) do {case west: {"Cop"}; case civilian : {"Civ"}; default {"Unknown"};};
-    _list lbAdd format["%1 - %2", name _x,_side];
-    _list lbSetdata [(lbSize _list)-1,str(_x)];
-} foreach playableUnits;
+	_entry = _x;
+	if((_entry select 0) in _units) then
+	{
+		_list lbAdd format["%1", _entry select 0];
+		_list lbSetData [(lbSize _list)-1,str(_entry)];
+	};
+} foreach _info;
+
+
+
+
+
 
 
 _list2 = _display displayCtrl 9991;
