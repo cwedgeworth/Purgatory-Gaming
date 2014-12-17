@@ -26,18 +26,18 @@ waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done
 {
 	while {true} do
 	{
-		waitUntil {uniform player == "U_Rangemaster"};
+		waitUntil {uniform player == "U_MillerBody"};
 		//player setObjectTextureGlobal [0,"textures\Clothing\APD\apd_shirt.paa"]; // APD Shirt Skin
 		player setObjectTextureGlobal [0,"textures\Clothing\APD\apd_uniform.paa"]; // APD Uniform Skin
-		waitUntil {uniform player != "U_Rangemaster"};
+		waitUntil {uniform player != "U_MillerBody"};
 	};
 };
 [] spawn
 {
 	while {true} do
 	{
-		waitUntil {uniform player == "U_NikosBody"};
+		waitUntil {uniform player == "U_Rangemaster"};
 		player setObjectTextureGlobal [0,"textures\Clothing\APD\apd_shirt.paa"]; // APD Shirt Skin
-		waitUntil {uniform player != "U_NikosBody"};
+		waitUntil {uniform player != "U_Rangemaster"};
 	};
 };
