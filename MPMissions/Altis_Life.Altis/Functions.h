@@ -111,6 +111,7 @@ class Life_Client_Core
 		class ticketAction {};
 		class packupSpikes {};
 		class storeVehicle {};
+		class robShops {};
 		class robAction {};
 		class captureHideout {};
 		class gather {};
