@@ -19,11 +19,7 @@ switch (_filter) do
 	//Uniforms
 	case 0:
 	{
-		_ret pushBack ["U_Rangemaster","Black Uniform",25];
-		if(__GETC__(life_coplevel) > 1) then
-		{
-			_ret pushBack ["U_Rangemaster,"Blue Uniform",350];
-		};
+		_ret pushBack ["U_Rangemaster","Police Uniform",25];
 		[] call life_fnc_copUniform;
 	};
 	
