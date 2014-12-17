@@ -10,7 +10,7 @@
   /* Configuration */
 
 _Enabled = true;							//Enable or disable the anticheat
-_Admins = ["76561198028512867","76561198190276328","76561198079626902", "76561198067140880"]; 			//Add your admin UID here
+_Admins = ["76561198028512867","76561198190276328","76561198079626902","76561198067140880","76561197973783939"]; 			//Add your admin UID here
 _Use_Life_fnc_MP = false;					//If you are using altis life change this to true
 
 //Add new cheat files & variables & menus to these lists
