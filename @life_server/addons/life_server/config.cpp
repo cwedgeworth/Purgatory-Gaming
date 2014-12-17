@@ -67,8 +67,6 @@ class CfgFunctions
 			class wantedRemove {};
 			class wantedAdd {};
 			class wantedPunish {};
-			class saveBounties {};
-			class loadBounties {};
 		};
 		
 		class Jail_Sys

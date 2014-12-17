@@ -16,5 +16,4 @@ if(_index != -1) then
 	life_wanted_list set[_index,-1];
 	life_wanted_list = life_wanted_list - [-1];
 	//publicVariable "life_wanted_list";
-	[[],_uid] spawn TON_fnc_saveBounties; //wanted persistent
 };
