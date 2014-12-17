@@ -25,3 +25,4 @@
 #include "settings.h"
 #include "federalReserve.h"
 #include "wantedadd2.hpp"
+#include "compensate.hpp" 
