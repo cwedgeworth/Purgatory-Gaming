@@ -87,8 +87,10 @@ if(_index != -1) then
     _crimes pushBack (_type select 0);
     _val = _data select 3;
     life_wanted_list set[_index,[_name,_uid,_crimes,(_type select 1) + _val]];
+	[[_name,_uid,_crimes,(_type select 1) + _val],_uid] spawn life_fnc_saveBounties; //Persistent Wanted System
 }
     else
 {
     life_wanted_list pushBack [_name,_uid,[(_type select 0)],(_type select 1)];
+	[[_name,_uid,[(_type select 0)],(_type select 1)],_uid] spawn life_fnc_saveBounties; //Persistent Wanted System
 };
