@@ -36,8 +36,8 @@ waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done
 {
 	while {true} do
 	{
-		waitUntil {uniform player == "U_B_CombatUniform_mcam"};
-		player setObjectTextureGlobal [0,"textures\Clothing\APD\apd_uniform.paa"]; // APD Uniform Skin
+		waitUntil {uniform player == "U_Rangemaster"};
+		player setObjectTextureGlobal [0,"textures\Clothing\APD\apd_shirt.paa"]; // APD Shirt Skin
 		waitUntil {uniform player != "U_B_CombatUniform_mcam"};
 	};
 };
