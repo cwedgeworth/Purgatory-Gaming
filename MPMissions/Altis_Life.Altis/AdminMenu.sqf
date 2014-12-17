@@ -9,7 +9,7 @@
 
   /* Configuration */
 
-Admin_List = compileFinal "['76561198028512867','76561198190276328','76561198079626902','_SP_PLAYER_']";		//replace these with your admin player UIDS (steamID64)
+Admin_List = compileFinal "['76561198028512867','76561198190276328','76561198079626902','76561198067140880','_SP_PLAYER_']";		//replace these with your admin player UIDS (steamID64)
 
 /* End Configuration */
 
