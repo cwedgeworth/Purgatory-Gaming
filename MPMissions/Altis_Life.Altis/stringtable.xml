@@ -262,25 +262,7 @@
             <German>To Be Changed</German>
             <French>Needs Translation</French>
         </Key>
-        <Key ID="STR_NOTF_ActionCancel">
-            <Original>Action Cancelled</Original>
-            <English>Action Cancelled</English>
-            <German>Aktion abgebrochen</German>
-            <French>Action Annulée</French>
-        </Key>
-        <Key ID="STR_Global_Yes">
-            <Original>Yes</Original>
-            <English>Yes</English>
-            <German>Ja</German>
-            <French>Oui</French>
-        </Key>
-        <Key ID="STR_Global_No">
-            <Original>No</Original>
-            <English>No</English>
-            <German>Nein</German>
-            <French>Aucun</French>
-        </Key>
-	</Package>
+    </Package>
 	<Package name="Admin_Notifications">
 		<Key ID="STR_ANOTF_Query">
 			<Original>Querying...</Original>
