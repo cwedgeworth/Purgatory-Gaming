@@ -3734,6 +3734,14 @@
 			<Italian>Licenza possesso Casa</Italian>
 			<Portuguese>Licença de Casas</Portuguese>
 		</Key>
+		<Key ID="STR_License_Lawyer">
+			<Original>Lawyer License</Original>
+			<English>Lawyer License</English>
+			<German>Eigentumsurkunde</German>
+			<French>Droit de Propriété</French>
+			<Italian>Licenza possesso Casa</Italian>
+			<Portuguese>Licença de Casas</Portuguese>
+		</Key>
 	</Package>
 	<Package name="More_Item_Strings">
 		<Key ID="STR_ISTR_Blast_VaultOnly">
