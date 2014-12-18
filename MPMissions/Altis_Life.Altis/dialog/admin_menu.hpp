@@ -143,8 +143,8 @@ class life_admin_menu {
             w = (6.25 / 40);
             h = (1 / 25);
         };
-		/*
-        class Debug : Life_RscButtonMenu {
+		
+        class Admin_TpHere : Life_RscButtonMenu {
             idc = 2911;
             text = "$STR_Admin_TpHere";
             onButtonClick = "hint 'Disabled';";
@@ -153,7 +153,7 @@ class life_admin_menu {
             w = (6.25 / 40);
             h = (1 / 25);
         };
-		class Debug : Life_RscButtonMenu {
+		class Admin_Kick : Life_RscButtonMenu {
             idc = 2912;
             text = "$STR_Admin_Kick";
             onButtonClick = "hint 'Disabled';";
@@ -162,7 +162,7 @@ class life_admin_menu {
             w = (6.25 / 40);
             h = (1 / 25);
         };
-		class Debug : Life_RscButtonMenu {
+		class Admin_Ban : Life_RscButtonMenu {
             idc = 2913;
             text = "$STR_Admin_Ban";
             onButtonClick = "hint 'Disabled';";
@@ -171,7 +171,7 @@ class life_admin_menu {
             w = (6.25 / 40);
             h = (1 / 25);
         };
-		class Debug : Life_RscButtonMenu {
+		class Admin_Spawn : Life_RscButtonMenu {
             idc = 2914;
             text = "$STR_Admin_Spawn";
             onButtonClick = "hint 'Disabled';";
@@ -180,7 +180,7 @@ class life_admin_menu {
             w = (6.25 / 40);
             h = (1 / 25);
         };
-		class Debug : Life_RscButtonMenu {
+		class Admin_DeleteItems : Life_RscButtonMenu {
             idc = 2915;
             text = "$STR_Admin_DeleteItems";
             onButtonClick = "hint 'Disabled';";

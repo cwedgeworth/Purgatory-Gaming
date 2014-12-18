@@ -17,8 +17,6 @@ StartProgress = true;
 "BIS_fnc_MP_packet" addPublicVariableEventHandler {_this call life_fnc_MPexec};
 
 [] execVM "anticheat.sqf";
-//[] execVM "fusionsmenu\admin\loop.sqf
-//[] execVM "fusionsmenu\admin\activate.sqf"
 
 MAC_fnc_switchMove = {
     private["_object","_anim"];
