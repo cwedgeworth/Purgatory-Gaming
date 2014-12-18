@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="Altis Life RPG">
 	<Package name="Global">
 		<Key ID="STR_Global_Close">
@@ -3762,6 +3762,18 @@
 			<French>Droit de Propriété</French>
 			<Italian>Licenza possesso Casa</Italian>
 			<Portuguese>Licença de Casas</Portuguese>
+		</Key>
+		<Key ID="STR_License_Lawyer">
+			<Original>Lawyer License</Original>
+			<English>Lawyer License</English>
+			<German>Anwalt Lizenz</German>
+			<French>licence d'avocat</French>
+			<Italian>licenza avvocato</Italian>
+			<Portuguese>licença de advogado</Portuguese>
+		</Key>
+		<Key ID="STR_License_BountyH">
+			<Original>Bounty Hunter License</Original>
+			<English>Bounty Hunter License</English>
 		</Key>
 	</Package>
 	<Package name="More_Item_Strings">
