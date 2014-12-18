@@ -13,7 +13,6 @@ waitUntil {!isNull (findDisplay 2900)};
 _display = findDisplay 2900;
 _list = _display displayCtrl 2902;
 	if(__GETC__(life_adminlevel) < 1) exitWith {closeDialog 0;};
-
         //idc = 2904 Compensate
         //idc = 2905 Spectate
         //idc = 2906 Teleport

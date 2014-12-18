@@ -171,36 +171,7 @@
             <German>Markers</German>
             <French>Markers</French>
         </Key>
-		<Key ID="STR_Admin_TpTo">
-            <Original>TP To</Original>
-            <English>TP To</English>
-            <German>TP To</German>
-            <French>TP To</French>
-        </Key>
-		<Key ID="STR_Admin_Kick">
-            <Original>Kick</Original>
-            <English>Kick</English>
-            <German>Kick</German>
-            <French>Kick</French>
-        </Key>
-		<Key ID="STR_Admin_Ban">
-            <Original>Ban</Original>
-            <English>Ban</English>
-            <German>Ban</German>
-            <French>Ban</French>
-        </Key>
-		<Key ID="STR_Admin_Spawn">
-            <Original>Veh/Items</Original>
-            <English>Veh/Items</English>
-            <German>Veh/Items</German>
-            <French>Veh/Items</French>
-        </Key>
-		<Key ID="STR_Admin_DeleteItems">
-            <Original>Rmv.Items</Original>
-            <English>Rmv.Items</English>
-            <German>Rmv.Items</German>
-            <French>Rmv.Items</French>
-        </Key>
+
         <Key ID="STR_ANOTF_CompWarn">
             <Original>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</Original>
             <English>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</English>
