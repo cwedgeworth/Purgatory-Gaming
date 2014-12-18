@@ -144,16 +144,16 @@ class life_admin_menu {
             h = (1 / 25);
         };
 		
-        class Admin_TpHere : Life_RscButtonMenu {
+        class Admin_TpTo : Life_RscButtonMenu {
             idc = 2911;
-            text = "$STR_Admin_TpHere";
-            onButtonClick = "hint 'Disabled';";
+            text = "$STR_Admin_TpTo";
+            onButtonClick = "[] call life_fnc_adminTpTo;";
             x = 0.58 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
             y = 0.885;
             w = (6.25 / 40);
             h = (1 / 25);
         };
-		
+		/*
 		class Admin_Kick : Life_RscButtonMenu {
             idc = 2912;
             text = "$STR_Admin_Kick";
@@ -163,7 +163,7 @@ class life_admin_menu {
             w = (6.25 / 40);
             h = (1 / 25);
         };
-		/*
+		
 		class Admin_Ban : Life_RscButtonMenu {
             idc = 2913;
             text = "$STR_Admin_Ban";
