@@ -15,12 +15,20 @@ switch(playerSide) do
 	case west: 
 	{
 		ctrlShow[2011,false];
+		if (uniform player == "U_Rangemaster") then {
+			[[player,0,"textures\Clothing\APD\apd_uniform.paa"],"life_fnc_setTexture",true,false] spawn life_fnc_MP;
+		};
 	};
 	
 	case civilian:
 	{
 		ctrlShow[2012,false];
 		ctrlShow[9800,false];
+	};
+	
+	case independent:
+	{
+		[[player,0,"textures\medic_uniform.jpg"],"life_fnc_setTexture",true,false] spawn life_fnc_MP;
 	};
 };
 
