@@ -60,7 +60,7 @@ switch (_filter) do
 			["G_Combat",nil,55],
 			["H_Shemag_khk",nil,105],
 			["H_Shemag_tan",nil,105],
-			["H_Beret_red",nil,250],
+			["H_Beret_red",nil,250]
 		];
 	};
 	
