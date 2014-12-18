@@ -145,12 +145,48 @@ class life_admin_menu {
         };
         class Debug : Life_RscButtonMenu {
             idc = 2911;
-            text = "$STR_Admin_Debug";
+            text = "$STR_Admin_TpHere";
             onButtonClick = "hint 'Disabled';";
             x = 0.58 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
             y = 0.885;
             w = (6.25 / 40);
             h = (1 / 25);
         };
+		class Debug : Life_RscButtonMenu {
+            idc = 2912;
+            text = "$STR_Admin_Kick";
+            onButtonClick = "hint 'Disabled';";
+            x = 0.58 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+            y = 0.885;
+            w = (6.25 / 40);
+            h = (1 / 25);
+        };
+		class Debug : Life_RscButtonMenu {
+            idc = 2913;
+            text = "$STR_Admin_Ban";
+            onButtonClick = "hint 'Disabled';";
+            x = 0.58 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+            y = 0.885;
+            w = (6.25 / 40);
+            h = (1 / 25);
+        };
+		class Debug : Life_RscButtonMenu {
+            idc = 2914;
+            text = "$STR_Admin_Spawn";
+            onButtonClick = "hint 'Disabled';";
+            x = 0.58 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+            y = 0.885;
+            w = (6.25 / 40);
+            h = (1 / 25);
+        };
+		class Debug : Life_RscButtonMenu {
+            idc = 2915;
+            text = "$STR_Admin_DeleteItems";
+            onButtonClick = "hint 'Disabled';";
+            x = 0.58 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+            y = 0.885;
+            w = (6.25 / 40);
+            h = (1 / 25);
+        };		
     };
 };
