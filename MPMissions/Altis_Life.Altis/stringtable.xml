@@ -3754,6 +3754,14 @@
 			<Italian>Licenza possesso Casa</Italian>
 			<Portuguese>Licença de Casas</Portuguese>
 		</Key>
+		<Key ID="STR_License_BountyH">
+			<Original>Bounty Hunter License</Original>
+			<English>Bounty Hunter License</English>
+			<German>Bounty Hunter License</German>
+			<French>Bounty Hunter License</French>
+			<Italian>Bounty Hunter License</Italian>
+			<Portuguese>Bounty Hunter License</Portuguese>
+		</Key>
 	</Package>
 	<Package name="More_Item_Strings">
 		<Key ID="STR_ISTR_Blast_VaultOnly">
