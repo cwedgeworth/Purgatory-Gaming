@@ -155,7 +155,7 @@ class Life_Client_Core
 		class weaponShopCfg {};
 		class vehicleWeightCfg {};
 		class houseConfig {};
-              class seizeCfg {};
+        class seizeCfg {};
 		
 		//Clothing Store Configs
 		class clothing_cop {};
@@ -312,6 +312,7 @@ class Life_Client_Core
 		class ticketPaid {};
         class seizePlayerWeapon {};
         class seizePlayerWeaponAction {};
+		class handleDowned {};
 	};
 	
 	class Gangs

@@ -72,7 +72,6 @@ if(!isNull _source) then {
 	if(_source != _unit) then {
 		_curMag = currentMagazine _source;
 		if (_curMag in ["30Rnd_65x39_caseless_mag_Tracer"] && _projectile in ["B_65x39_Caseless"]) then {
-			if((side _source == west && playerSide != west)) then {
 				private["_isVehicle","_isQuad"];
 				_isVehicle = if(vehicle player != player) then {true} else {false};
 				_isQuad = if(_isVehicle) then {if(typeOf(vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
