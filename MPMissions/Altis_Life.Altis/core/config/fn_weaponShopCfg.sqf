@@ -100,8 +100,8 @@ switch(_shop) do
 			{
 				["Altis Sergeant Officer Shop",
 					[
-						["arifle_MX_F,nil,45000], // MX Assault
-						["arifle_MXM_F,nil,45000], // MXM Marksmen
+						["arifle_MX_F",nil,45000], // MX Assault
+						["arifle_MXM_F",nil,45000], // MXM Marksmen
 						["HandGrenade_Stone","Flashbang",1700], // Flashbang
 						["optic_Arco",nil,2500], // ARCO Sight
 						["30Rnd_65x39_caseless_mag",nil,100] // 6.5mm Ammo
