@@ -3689,7 +3689,7 @@ class Mission
 					vehicle="b_survivor_F";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[format["%1 ($%2)",["license_civ_lawyer"] call life_fnc_varToStr,[(["lawyer"] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,"lawyer",0,false,false,"",' !license_civ_lawyer && playerSide == civilian ']; this addAction[format["%1 ($%2)",["license_civ_bountyh"] call life_fnc_varToStr,[(["bountyh"] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,"bountyh",0,false,false,"",' !license_civ_bountyh && playerSide == civilian ']";
+					init="this enableSimulation false; this allowDamage false; this addAction[format[""%1 ($%2)"",[""license_civ_lawyer""] call life_fnc_varToStr,[([""lawyer""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""lawyer"",0,false,false,"""",' !license_civ_lawyer && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",[""license_civ_bountyh""] call life_fnc_varToStr,[([""bountyh""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""bountyh"",0,false,false,"""",' !license_civ_bountyh && playerSide == civilian '];";
 				};
 			};
 		};
