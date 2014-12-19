@@ -39,7 +39,6 @@ switch (_filter) do
 			["H_ShemagOpen_tan",nil,850],
 			["H_Shemag_olive",nil,850],
 			["H_ShemagOpen_khk",nil,800],
-			["H_HelmetO_ocamo",nil,2500],
 			["H_MilCap_oucamo",nil,1200],
 			["H_Bandanna_camo",nil,650]
 		];
