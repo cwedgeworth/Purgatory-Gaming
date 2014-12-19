@@ -26,5 +26,3 @@ MAC_fnc_switchMove = {
     _object switchMove _anim;
     
 };
-
-[] call SHK_fnc_cruiseSpawn;  

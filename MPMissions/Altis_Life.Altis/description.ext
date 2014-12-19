@@ -170,7 +170,3 @@ class CfgNotifications
 		priority = 5;
 	};
 };
-class CfgFunctions 
-{ 
-    #include "SHK_cruise\cfgfunctions.hpp" 
-};
