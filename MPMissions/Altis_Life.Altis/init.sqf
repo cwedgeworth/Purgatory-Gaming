@@ -26,3 +26,6 @@ MAC_fnc_switchMove = {
     _object switchMove _anim;
     
 };
+
+// mod cruise control
+call mod_cruiseControl;

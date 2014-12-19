@@ -131,3 +131,6 @@ _rsb allowDamage false;
 _dome allowDamage false;
 life_server_isReady = true;
 publicVariable "life_server_isReady";
+
+// cruise control
+[] execVM "\life_server\mods\mod_cruiseControl.sqf";
