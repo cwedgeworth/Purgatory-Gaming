@@ -14,4 +14,3 @@ _ind = [_uid,life_wanted_list] call TON_fnc_index;
 if(_ind == -1) exitWith {};
 life_wanted_list set[_ind,-1];
 life_wanted_list = life_wanted_list - [-1];
-[[],_uid] spawn life_fnc_saveBounties; //Persistent Wanted System
