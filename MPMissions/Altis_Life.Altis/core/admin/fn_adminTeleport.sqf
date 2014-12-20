@@ -8,8 +8,12 @@
 */
 if(__GETC__(life_adminlevel) == 0) exitWith {closeDialog 0;};
 
-closedialog 0;
-sleep 0.5;
+[] spawn {
+while {dialog} do {
+closeDialog 0;
+sleep 0.01;
+};
+};
 TitleText [format["Click on the map to Tele-Port"], "PLAIN DOWN"];
 
 tele={
