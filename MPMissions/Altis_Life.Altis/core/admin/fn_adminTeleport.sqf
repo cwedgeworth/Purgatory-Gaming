@@ -27,9 +27,9 @@ if !("ItemMap" in items player) then {
 //    hint "You have teleported to your selected position";
 //};
 
-//openMap [true, false];
+openMap [true, false];
 //onMapSingleClick "[_pos select 0, _pos select 1, _pos select 2] call tele";
-openMap [false, false];
 onMapSingleClick "(vehicle player) setpos _pos";
-hint "You have teleported to your selected position";
 onMapSingleClick "";
+openMap [false, false];
+hint "You have teleported to your selected position";
