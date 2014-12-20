@@ -25,6 +25,21 @@ compileFinal "
 	_xy = sqrt ( _x*_x + _y*_y ) * 3.6;
 	cspeed = 0;
 	
+	if (_xy > 25 && _xy < 35) then {
+		cspeed = 30;
+		cruiseControlSet = true;
+		hint parseText format [""
+					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>Cruise Control</t><br/><br/>
+					<t size='0.90 'font='puristaLight' align='left'>Cruise Control:</t><t size='0.90 'font='puristaLight' align='left' color='#33CC00'> Activated!</t><br/><br/>
+					<t size='0.90' font='puristaLight' align='left' color='#0D82DF'>Current Speed</t><t size='0.90' font='puristaLight'align='right' color='#0D82DF'>Cruise Speed</t><br/>
+					<t size='0.90' font='puristaLight' align='left' color='#33CC00'>25 - 35 km/h :</t><t size='0.90' font='puristaLight'align='right' color='#33CC00'>30 km/h</t><br/>
+					<t size='0.90' font='puristaLight' align='left'>45 - 55 km/h :</t><t size='0.90' font='puristaLight'align='right'>50 km/h</t><br/>
+					<t size='0.90' font='puristaLight' align='left'>85 - 95 km/h :</t><t size='0.90' font='puristaLight'align='right'>90 km/h</t><br/>
+					<t size='0.90' font='puristaLight' align='left'>115 - 125 km/h :</t><t size='0.90' font='puristaLight'align='right'>120 km/h</t><br/><br/>
+					<t size='0.90' font='puristaLight' align='center' color='#CC9900'>Terminate Cruise with Breaks (S)</t><br/><br/>
+					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>- Cruise Control -</t><br/>""
+				];
+	};
 	if (_xy > 45 && _xy < 55) then {
 		cspeed = 50;
 		cruiseControlSet = true;
@@ -32,25 +47,25 @@ compileFinal "
 					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>Cruise Control</t><br/><br/>
 					<t size='0.90 'font='puristaLight' align='left'>Cruise Control:</t><t size='0.90 'font='puristaLight' align='left' color='#33CC00'> Activated!</t><br/><br/>
 					<t size='0.90' font='puristaLight' align='left' color='#0D82DF'>Current Speed</t><t size='0.90' font='puristaLight'align='right' color='#0D82DF'>Cruise Speed</t><br/>
-					<t size='0.90' font='puristaLight' align='left' color='#33CC00'>45 - 55 km/h :</t><t size='0.90' font='puristaLight'align='right' color='#33CC00'>50 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>65 - 75 km/h :</t><t size='0.90' font='puristaLight'align='right'>70 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>115 - 125 km/h :</t><t size='0.90' font='puristaLight'align='right'>120 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>155 - 165 km/h :</t><t size='0.90' font='puristaLight'align='right'>160 km/h</t><br/><br/>
+					<t size='0.90' font='puristaLight' align='left'>25 - 35 km/h :</t><t size='0.90' font='puristaLight'align='right'>50 km/h</t><br/>
+					<t size='0.90' font='puristaLight' align='left' color='#33CC00'>45 - 55 km/h :</t><t size='0.90' font='puristaLight'align='right' color='#33CC00'>70 km/h</t><br/>
+					<t size='0.90' font='puristaLight' align='left'>85 - 95 km/h :</t><t size='0.90' font='puristaLight'align='right'>120 km/h</t><br/>
+					<t size='0.90' font='puristaLight' align='left'>115 - 125 km/h :</t><t size='0.90' font='puristaLight'align='right'>160 km/h</t><br/><br/>
 					<t size='0.90' font='puristaLight' align='center' color='#CC9900'>Terminate Cruise with Breaks (S)</t><br/><br/>
 					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>- Cruise Control -</t><br/>""
 				];
 	};
-	if (_xy > 65 && _xy < 75) then {
-		cspeed = 70;
+	if (_xy > 85 && _xy < 95) then {
+		cspeed = 90;
 		cruiseControlSet = true;
 		hint parseText format [""
 					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>Cruise Control</t><br/><br/>
 					<t size='0.90 'font='puristaLight' align='left'>Cruise Control:</t><t size='0.90 'font='puristaLight' align='left' color='#33CC00'> Activated!</t><br/><br/>
 					<t size='0.90' font='puristaLight' align='left' color='#0D82DF'>Current Speed</t><t size='0.90' font='puristaLight'align='right' color='#0D82DF'>Cruise Speed</t><br/>
+					<t size='0.90' font='puristaLight' align='left'>25 - 35 km/h :</t><t size='0.90' font='puristaLight'align='right'>30 km/h</t><br/>
 					<t size='0.90' font='puristaLight' align='left'>45 - 55 km/h :</t><t size='0.90' font='puristaLight'align='right'>50 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left' color='#33CC00'>65 - 75 km/h :</t><t size='0.90' font='puristaLight'align='right' color='#33CC00'>70 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>115 - 125 km/h :</t><t size='0.90' font='puristaLight'align='right'>120 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>155 - 165 km/h :</t><t size='0.90' font='puristaLight'align='right'>160 km/h</t><br/><br/>
+					<t size='0.90' font='puristaLight' align='left' color='#33CC00'>85 - 95 km/h :</t><t size='0.90' font='puristaLight'align='right' color='#33CC00'>90 km/h</t><br/>
+					<t size='0.90' font='puristaLight' align='left'>155 - 125 km/h :</t><t size='0.90' font='puristaLight'align='right'>120 km/h</t><br/><br/>
 					<t size='0.90' font='puristaLight' align='center' color='#CC9900'>Terminate Cruise with Breaks (S)</t><br/><br/>
 					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>- Cruise Control -</t><br/>""
 				];
@@ -62,25 +77,10 @@ compileFinal "
 					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>Cruise Control</t><br/><br/>
 					<t size='0.90 'font='puristaLight' align='left'>Cruise Control:</t><t size='0.90 'font='puristaLight' align='left' color='#33CC00'> Activated!</t><br/><br/>
 					<t size='0.90' font='puristaLight' align='left' color='#0D82DF'>Current Speed</t><t size='0.90' font='puristaLight'align='right' color='#0D82DF'>Cruise Speed</t><br/>
+					<t size='0.90' font='puristaLight' align='left'>25 - 35 km/h :</t><t size='0.90' font='puristaLight'align='right'>30 km/h</t><br/>
 					<t size='0.90' font='puristaLight' align='left'>45 - 55 km/h :</t><t size='0.90' font='puristaLight'align='right'>50 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>65 - 75 km/h :</t><t size='0.90' font='puristaLight'align='right'>70 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left' color='#33CC00'>115 - 125 km/h :</t><t size='0.90' font='puristaLight'align='right' color='#33CC00'>120 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>155 - 165 km/h :</t><t size='0.90' font='puristaLight'align='right'>160 km/h</t><br/><br/>
-					<t size='0.90' font='puristaLight' align='center' color='#CC9900'>Terminate Cruise with Breaks (S)</t><br/><br/>
-					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>- Cruise Control -</t><br/>""
-				];
-	};
-	if (_xy > 155 && _xy < 165) then {
-		cspeed = 160;
-		cruiseControlSet = true;
-		hint parseText format [""
-					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>Cruise Control</t><br/><br/>
-					<t size='0.90 'font='puristaLight' align='left'>Cruise Control:</t><t size='0.90 'font='puristaLight' align='left' color='#33CC00'> Activated!</t><br/><br/>
-					<t size='0.90' font='puristaLight' align='left' color='#0D82DF'>Current Speed</t><t size='0.90' font='puristaLight'align='right' color='#0D82DF'>Cruise Speed</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>45 - 55 km/h :</t><t size='0.90' font='puristaLight'align='right'>50 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>65 - 75 km/h :</t><t size='0.90' font='puristaLight'align='right'>70 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>115 - 125 km/h :</t><t size='0.90' font='puristaLight'align='right'>120 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left' color='#33CC00'>155 - 165 km/h :</t><t size='0.90' font='puristaLight'align='right' color='#33CC00'>160 km/h</t><br/><br/>
+					<t size='0.90' font='puristaLight' align='left'>85 - 95 km/h :</t><t size='0.90' font='puristaLight'align='right'>90 km/h</t><br/>
+					<t size='0.90' font='puristaLight' align='left' color='#33CC00'>115 - 125 km/h :</t><t size='0.90' font='puristaLight'align='right' color='#33CC00'>120 km/h</t><br/><br/>
 					<t size='0.90' font='puristaLight' align='center' color='#CC9900'>Terminate Cruise with Breaks (S)</t><br/><br/>
 					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>- Cruise Control -</t><br/>""
 				];
@@ -91,10 +91,10 @@ compileFinal "
 					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>Cruise Control</t><br/><br/>
 					<t size='0.90 'font='puristaLight' align='left'>Cruise Control:</t><t size='0.90 'font='puristaLight' align='left' color='#990000'> NOT Activated!</t><br/><br/>
 					<t size='0.90' font='puristaLight' align='left' color='#0D82DF'>Current Speed</t><t size='0.90' font='puristaLight'align='right' color='#0D82DF'>Cruise Speed</t><br/>
+					<t size='0.90' font='puristaLight' align='left'>25 - 35 km/h :</t><t size='0.90' font='puristaLight'align='right'>30 km/h</t><br/>
 					<t size='0.90' font='puristaLight' align='left'>45 - 55 km/h :</t><t size='0.90' font='puristaLight'align='right'>50 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>65 - 75 km/h :</t><t size='0.90' font='puristaLight'align='right'>70 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>115 - 125 km/h :</t><t size='0.90' font='puristaLight'align='right'>120 km/h</t><br/>
-					<t size='0.90' font='puristaLight' align='left'>155 - 165 km/h :</t><t size='0.90' font='puristaLight'align='right'>160 km/h</t><br/><br/>
+					<t size='0.90' font='puristaLight' align='left'>85 - 95 km/h :</t><t size='0.90' font='puristaLight'align='right'>90 km/h</t><br/>
+					<t size='0.90' font='puristaLight' align='left'>115 - 125 km/h :</t><t size='0.90' font='puristaLight'align='right'>120 km/h</t><br/><br/>
 					<t size='0.90' font='puristaLight' align='center' color='#CC9900'>Terminate Cruise with Breaks (S)</t><br/><br/>
 					<t size='1.30' font='puristaMedium' align='center' color='#0D82DF'>- Cruise Control -</t><br/>""
 				];
