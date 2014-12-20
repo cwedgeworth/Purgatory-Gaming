@@ -58,6 +58,7 @@ class Mission
 		"A3_Structures_F_Research",
 		"A3_Data_F",
 		"a3_roads_f",
+		"mcc_sandbox"
 	};
 	addOnsAuto[]=
 	{
