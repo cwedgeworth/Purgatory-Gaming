@@ -13306,7 +13306,7 @@ class Intro
 	randomSeed=8749860;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
+		timeOfChanges=1200.0002;
 		startWeather=0.30000001;
 		startWind=0.1;
 		startWaves=0.1;
@@ -13337,7 +13337,7 @@ class OutroWin
 	randomSeed=285203;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
+		timeOfChanges=1200.0002;
 		startWeather=0.30000001;
 		startWind=0.1;
 		startWaves=0.1;
