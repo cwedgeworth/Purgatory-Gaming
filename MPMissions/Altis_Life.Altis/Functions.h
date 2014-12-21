@@ -268,6 +268,7 @@ class Life_Client_Core
 		class freezePlayer {};
 		class handleDowned {};
 		class civRestrain {};
+		class civUnrestrain {};
 	};
 	
 	class Vehicle
@@ -370,6 +371,7 @@ class Life_Client_Core
 		class blastingCharge {};
 		class defuseKit {};
 		class storageBox {};
+		class knife {};
 	};
 	
 	class Dialog_Controls
