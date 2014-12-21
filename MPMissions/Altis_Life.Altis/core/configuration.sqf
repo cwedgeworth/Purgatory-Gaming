@@ -163,7 +163,9 @@ life_inv_items =
 	"life_inv_boltcutter",
 	"life_inv_defusekit",
 	"life_inv_storagesmall",
-	"life_inv_storagebig"
+	"life_inv_storagebig",
+	"life_inv_knife",
+	"life_inv_zipties"
 ];
 
 //Setup variable inv vars.
