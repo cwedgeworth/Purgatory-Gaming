@@ -267,6 +267,7 @@ class Life_Client_Core
 		class civLoadout {};
 		class freezePlayer {};
 		class handleDowned {};
+		class civRestrain {};
 	};
 	
 	class Vehicle
