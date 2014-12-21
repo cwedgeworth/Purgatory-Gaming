@@ -244,7 +244,9 @@ sell_array =
 	["fuelF",500],
 	["spikeStrip",1200],
 	["cement",1950],
-	["goldbar",95000]
+	["goldbar",95000],
+	["knife",1000],
+	["zipties",5000]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -274,7 +276,9 @@ buy_array =
 	["boltcutter",7500],
 	["defusekit",2500],
 	["storagesmall",75000],
-	["storagebig",150000]
+	["storagebig",150000],
+	["knife",2000]
+	["zipties",10000],
 ];
 __CONST__(buy_array,buy_array);
 
