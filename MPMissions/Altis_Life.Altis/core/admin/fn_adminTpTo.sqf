@@ -6,7 +6,7 @@
     Description:
     Teleport you to a player.
 */
-if(__GETC__(life_adminlevel) == 0) exitWith {closeDialog 0;};
+if(__GETC__(life_adminlevel) < 1) exitWith {closeDialog 0;};
 
 private["_target"];
 _target = lbData[2902,lbCurSel (2902)];
