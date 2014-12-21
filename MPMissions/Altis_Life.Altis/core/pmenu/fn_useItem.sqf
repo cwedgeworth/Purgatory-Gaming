@@ -87,6 +87,10 @@ switch (true) do
 		[] spawn life_fnc_pickAxeUse;
 	};
 	
+	case (_item == "knife"): {
+		[cursorTarget] spawn life_fnc_knife;
+	};
+	
 	default
 	{
 		hint localize "STR_ISTR_NotUsable";
