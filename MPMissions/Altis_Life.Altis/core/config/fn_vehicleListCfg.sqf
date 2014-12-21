@@ -92,9 +92,6 @@ switch (_shop) do
 		["C_Offroad_01_F",5000];
 		_return pushBack
 		["C_SUV_01_F",20000];
-		if(__GETC__(life_coplevel) > 2) then
-		{
-		};
 	};
 	
 	case "civ_air":
