@@ -43,6 +43,7 @@ switch (_shop) do
 		_return = 
 		[
 			["B_Quadbike_01_F",2500],
+			["C_Hatchback_01_F",4500],
 			["C_Hatchback_01_sport_F",9500],
 			["C_Offroad_01_F",12500],
 			["C_SUV_01_F",35000],
@@ -80,7 +81,6 @@ switch (_shop) do
 		if(license_civ_rebel) then
 		{
 			_return pushBack
-			["B_G_Offroad_01_armed_F",750000];
 		};
 	};
 	
@@ -126,7 +126,6 @@ switch (_shop) do
 			_return pushBack
 			["B_Heli_Transport_01_F",200000];
 			_return pushBack
-			["B_MRAP_01_hmg_F",750000];
 		};
 	};
 	
@@ -145,7 +144,6 @@ switch (_shop) do
 		[
 			["B_Boat_Transport_01_F",3000],
 			["C_Boat_Civil_01_police_F",20000],
-			["B_Boat_Armed_01_minigun_F",75000],
 			["B_SDV_01_F",100000]
 		];
 	};
