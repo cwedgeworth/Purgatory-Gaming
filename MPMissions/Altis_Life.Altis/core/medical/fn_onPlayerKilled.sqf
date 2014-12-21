@@ -45,15 +45,16 @@ _unit spawn
 		_maxTime = time + (life_respawn_timer_medic_online * 60);
 		systemChat format[localize "STR_Medic_Online_Death"];
 	};
+	
 	if([independent] call life_fnc_playerCount > 0) then {
         _maxTime = time + (life_respawn_timer_medic_online * 60);
         systemChat format[localize "STR_Medic_Online_Death"];
 	};
 	
-	if(__GETC__(life_adminlevel) > 3) then {
-		_maxTime = time;
-		systemChat "You can respawn. Please don't abuse your zero respawn timer.";
-	};
+	//if(__GETC__(life_adminlevel) > 3) then {
+	//	_maxTime = time;
+	//	systemChat "You can respawn. Please don't abuse your zero respawn timer.";
+	//};
 	
 	_RespawnBtn ctrlEnable false;
 	waitUntil {
