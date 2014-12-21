@@ -277,8 +277,8 @@ buy_array =
 	["defusekit",2500],
 	["storagesmall",75000],
 	["storagebig",150000],
-	["knife",2000]
-	["zipties",10000],
+	["knife",2000],
+	["zipties",10000]
 ];
 __CONST__(buy_array,buy_array);
 
