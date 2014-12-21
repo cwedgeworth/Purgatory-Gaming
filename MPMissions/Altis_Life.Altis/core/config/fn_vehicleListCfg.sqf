@@ -77,11 +77,6 @@ switch (_shop) do
 			["I_Truck_02_ammo_F",1500000],
 			["B_Heli_Light_01_F",325000]
 		];
-		
-		if(license_civ_rebel) then
-		{
-			_return pushBack
-		};
 	};
 	
 	case "cop_car":
@@ -122,7 +117,6 @@ switch (_shop) do
 		{
 			_return pushBack
 			["B_Heli_Transport_01_F",200000];
-			_return pushBack
 		};
 	};
 	
