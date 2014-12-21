@@ -370,6 +370,7 @@ class Life_Client_Core
 		class blastingCharge {};
 		class defuseKit {};
 		class storageBox {};
+		class knife {};
 	};
 	
 	class Dialog_Controls
