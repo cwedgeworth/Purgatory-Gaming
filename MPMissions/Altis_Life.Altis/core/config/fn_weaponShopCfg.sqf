@@ -29,6 +29,9 @@ switch(_shop) do
 			{
 				["Altis Cop Shop",
 					[
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000],
 						["hgun_P07_F",nil,5000], // 907 9mm
 						["hgun_Rook40_F",nil,5500], // Rook 40
 						["SMG_02_F",nil,9500], // Sting 9mm
