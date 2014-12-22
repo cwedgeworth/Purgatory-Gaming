@@ -32,9 +32,12 @@ switch(_shop) do
 						["ToolKit",nil,250],
 						["FirstAidKit",nil,150],
 						["NVGoggles",nil,2000],
+						["ItemGPS",nil,100],
+						["Binocular",nil,150],
 						["hgun_P07_F",nil,5000], // 907 9mm
 						["hgun_Rook40_F",nil,5500], // Rook 40
 						["SMG_02_F",nil,9500], // Sting 9mm
+						["16Rnd_9x21_Mag",nil,250], //Taser Ammo
 						["30Rnd_9x21_Mag",nil,550], // 30rnd 9mm Ammo
 						["hgun_acpc2_F",nil,7500], // ACP-C2 .45
 						["9Rnd_45ACP_Mag",nil,550], // 9Rnd .45 Ammo
@@ -83,6 +86,7 @@ switch(_shop) do
 						["hgun_P07_F",nil,5000], // 907 9mm
 						["hgun_Rook40_F",nil,5500], // Rook 40
 						["SMG_02_F",nil,9500], // Sting 9mm
+						["16Rnd_9x21_Mag",nil,250], //Taser Ammo
 						["30Rnd_9x21_Mag",nil,550], // 30rnd 9mm Ammo
 						["hgun_acpc2_F",nil,7500], // ACP-C2 .45
 						["9Rnd_45ACP_Mag",nil,550], // 9Rnd .45 Ammo
@@ -136,7 +140,7 @@ switch(_shop) do
 						["optic_Hamr",nil,7500], // RCOSight
 						["optic_MRCO",nil,10000], // ARCO Sight
 						["30Rnd_9x21_Mag",nil,550], // 30Rnd 9mm
-						["hgun_acpc2_F",nil,7500], // ACP-C2 .45
+						["9Rnd_45ACP_Mag",nil,550], // 9Rnd .45 Ammo
 						["20Rnd_556x45_UW_mag",nil,125], // 5.56 Ammo
 						["30Rnd_556x45_Stanag",nil,300], // 5.56 Stanag
 						["30Rnd_65x39_caseless_green",nil,275] // 6.5mm Caseless
