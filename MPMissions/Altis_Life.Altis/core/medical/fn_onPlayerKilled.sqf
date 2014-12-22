@@ -1,3 +1,4 @@
+#include <macro.h>
 /*
 	File: fn_onPlayerKilled.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -17,9 +18,11 @@ _unit setVariable["name",profileName,TRUE]; //Set my name so they can say my nam
 _unit setVariable["restrained",FALSE,TRUE];
 _unit setVariable["Escorting",FALSE,TRUE];
 _unit setVariable["transporting",FALSE,TRUE]; //Why the fuck do I have this? Is it used?
+_unit setVariable["surrender", FALSE, FALSE];
 _unit setVariable["steam64id",(getPlayerUID player),true]; //Set the UID.
 
 //Setup our camera view
+life_alive = false;
 life_deathCamera  = "CAMERA" camCreate (getPosATL _unit);
 showCinemaBorder TRUE;
 life_deathCamera cameraEffect ["Internal","Back"];
@@ -41,27 +44,21 @@ _unit spawn
 	_Timer = ((findDisplay 7300) displayCtrl 7301);
 	
 	_maxTime = time + (life_respawn_timer * 60);
-<<<<<<< HEAD
 	if([independent] call life_fnc_playerCount > 0) then {
 		_maxTime = time + (life_respawn_timer_medic_online * 60);
 		systemChat format[localize "STR_Medic_Online_Death"];
 	};
-	
-	if([independent] call life_fnc_playerCount > 0) then {
-        _maxTime = time + (life_respawn_timer_medic_online * 60);
-        systemChat format[localize "STR_Medic_Online_Death"];
+
+	if(__GETC__(life_adminlevel) > 2) then {
+		_maxTime = time;
+		systemChat "You can respawn. Please don't abuse your zero respawn timer.";
 	};
 	
-	//if(__GETC__(life_adminlevel) > 3) then {
-	//	_maxTime = time;
-	//	systemChat "You can respawn. Please don't abuse your zero respawn timer.";
-	//};
-	
-=======
->>>>>>> parent of 21aa527... Re-spawn Timer
 	_RespawnBtn ctrlEnable false;
-	waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString]; 
-	round(_maxTime - time) <= 0 OR isNull _this};
+	waitUntil {
+		_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString]; 
+		round(_maxTime - time) <= 0 OR isNull _this
+	};
 	_RespawnBtn ctrlEnable true;
 	_Timer ctrlSetText localize "STR_Medic_Respawn_2";
 };
@@ -118,5 +115,6 @@ life_cash = 0;
 [] call life_fnc_hudUpdate; //Get our HUD updated.
 [[player,life_sidechat,playerSide],"TON_fnc_managesc",false,false] spawn life_fnc_MP;
 
+[4] call SOCK_fnc_updatePartial;
 [0] call SOCK_fnc_updatePartial;
 [3] call SOCK_fnc_updatePartial;
