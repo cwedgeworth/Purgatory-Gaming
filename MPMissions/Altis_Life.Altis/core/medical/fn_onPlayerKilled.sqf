@@ -41,6 +41,7 @@ _unit spawn
 	_Timer = ((findDisplay 7300) displayCtrl 7301);
 	
 	_maxTime = time + (life_respawn_timer * 60);
+<<<<<<< HEAD
 	if([independent] call life_fnc_playerCount > 0) then {
 		_maxTime = time + (life_respawn_timer_medic_online * 60);
 		systemChat format[localize "STR_Medic_Online_Death"];
@@ -56,11 +57,11 @@ _unit spawn
 	//	systemChat "You can respawn. Please don't abuse your zero respawn timer.";
 	//};
 	
+=======
+>>>>>>> parent of 21aa527... Re-spawn Timer
 	_RespawnBtn ctrlEnable false;
-	waitUntil {
-		_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString]; 
-		round(_maxTime - time) <= 0 OR isNull _this
-	};
+	waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString]; 
+	round(_maxTime - time) <= 0 OR isNull _this};
 	_RespawnBtn ctrlEnable true;
 	_Timer ctrlSetText localize "STR_Medic_Respawn_2";
 };
