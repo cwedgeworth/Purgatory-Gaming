@@ -35,17 +35,11 @@ switch(_shop) do
 						["ItemGPS",nil,100],
 						["Binocular",nil,150],
 						["hgun_P07_snds_F",nil,5000], // 907 9mm
-						["muzzle_snds_L",nil,500],
-						["hgun_Rook40_F",nil,5500], // Rook 40
 						["SMG_02_F",nil,9500], // Sting 9mm
-						["16Rnd_9x21_Mag",nil,250], //Taser Ammo
+						["16Rnd_9x21_Mag",nil,250], // 16rnd 9mm Ammo
 						["30Rnd_9x21_Mag",nil,550], // 30rnd 9mm Ammo
-						["hgun_acpc2_F",nil,7500], // ACP-C2 .45
-						["9Rnd_45ACP_Mag",nil,550], // 9Rnd .45 Ammo
 						["acc_flashlight",nil,750], // Flashlight
-						["HandGrenade_Stone","Flashbang",1700], // Flashbang
-						["optic_Holosight",nil,1200], // Halosight
-						["optic_ACO_grn",nil,3500] // ACO
+						["optic_Holosight",nil,1200] // Halosight
 					]
 				];
 			};
@@ -84,14 +78,10 @@ switch(_shop) do
 			{
 				["Altis Patrol Officer Shop",
 					[
-						["hgun_P07_F",nil,5000], // 907 9mm
 						["hgun_Rook40_F",nil,5500], // Rook 40
-						["SMG_02_F",nil,9500], // Sting 9mm
-						["16Rnd_9x21_Mag",nil,250], //Taser Ammo
+						["16Rnd_9x21_Mag",nil,250], //16rnd 9mm Ammo
 						["30Rnd_9x21_Mag",nil,550], // 30rnd 9mm Ammo
-						["hgun_acpc2_F",nil,7500], // ACP-C2 .45
-						["9Rnd_45ACP_Mag",nil,550], // 9Rnd .45 Ammo
-						["optic_ACO_grn",nil,3500] // ACO Green Sight
+						["HandGrenade_Stone","Flashbang",1700] // Flashbang
 					]
 				];
 			};
@@ -110,7 +100,6 @@ switch(_shop) do
 					[
 						["arifle_MX_F",nil,45000], // MX Assault
 						["arifle_MXM_F",nil,45000], // MXM Marksmen
-						["HandGrenade_Stone","Flashbang",1700], // Flashbang
 						["optic_Arco",nil,2500], // ARCO Sight
 						["30Rnd_65x39_caseless_mag",nil,100] // 6.5mm Ammo
 					]
