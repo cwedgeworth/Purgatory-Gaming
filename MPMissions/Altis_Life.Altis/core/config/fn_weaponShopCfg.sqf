@@ -34,7 +34,7 @@ switch(_shop) do
 						["NVGoggles",nil,2000],
 						["ItemGPS",nil,100],
 						["Binocular",nil,150],
-						["hgun_P07_F",nil,5000], // 907 9mm
+						["hgun_P07_snds_F",nil,5000], // 907 9mm
 						["hgun_Rook40_F",nil,5500], // Rook 40
 						["SMG_02_F",nil,9500], // Sting 9mm
 						["16Rnd_9x21_Mag",nil,250], //Taser Ammo
