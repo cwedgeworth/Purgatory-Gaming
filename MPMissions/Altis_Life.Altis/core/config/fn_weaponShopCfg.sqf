@@ -37,7 +37,7 @@ switch(_shop) do
 						["hgun_P07_snds_F",nil,5000], // 907 9mm
 						["SMG_02_F",nil,9500], // Sting 9mm
 						["16Rnd_9x21_Mag",nil,250], // 16rnd 9mm Ammo
-						["30Rnd_9x21_Mag",nil,550], // 30rnd 9mm Ammo
+						["30Rnd_9x21_Mag",nil,450], // 30rnd 9mm Ammo
 						["acc_flashlight",nil,750], // Flashlight
 						["optic_Holosight",nil,1200] // Halosight
 					]
@@ -79,8 +79,14 @@ switch(_shop) do
 				["Altis Patrol Officer Shop",
 					[
 						["hgun_Rook40_F",nil,5500], // Rook 40
+						["arifle_TRG21_F",nil,14500], // TRG-21 5.56 mm
+						["optic_ACO_grn",nil,3500], // ACO Green Sight
 						["16Rnd_9x21_Mag",nil,250], //16rnd 9mm Ammo
-						["30Rnd_9x21_Mag",nil,550], // 30rnd 9mm Ammo
+						["30Rnd_9x21_Mag",nil,450], // 30rnd 9mm Ammo
+						["30Rnd_556x45_Stanag",nil,550], // Caliber: 5.56x45 mm NATO Ammo
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,560], // Caliber: 5.56x45 mm NATO Ammo
+						["30Rnd_556x45_Stanag_Tracer_Green",nil,560], // Caliber: 5.56x45 mm NATO Ammo
+						["30Rnd_556x45_Stanag_Tracer_Yellow",nil,560], // Caliber: 5.56x45 mm NATO Ammo
 						["HandGrenade_Stone","Flashbang",1700] // Flashbang
 					]
 				];
@@ -122,17 +128,19 @@ switch(_shop) do
 						["hgun_pdw2000_F",nil,11500], // PDW2000
 						["arifle_SDAR_F",nil,19500], // SDAR
 						["arifle_TRG20_F",nil,35000], // TRG20
-						["SMG_01_F",nill,38000], // Vermin SMG
+						["SMG_01_F",nil,38000], // Vermin SMG
 						["arifle_Katiba_F",nil,50000], // Katiba
+						["acc_flashlight",nil,1000], // Flashlight
 						["optic_ACO_grn",nil,3500], // ACO Green Sight
 						["optic_Holosight",nil,3600], // MK-17 Halosight
-						["acc_flashlight",nil,1000], // Flashlight
 						["optic_Hamr",nil,7500], // RCOSight
 						["optic_MRCO",nil,10000], // ARCO Sight
-						["30Rnd_9x21_Mag",nil,550], // 30Rnd 9mm
 						["9Rnd_45ACP_Mag",nil,550], // 9Rnd .45 Ammo
+						["30Rnd_9x21_Mag",nil,550], // 30Rnd 9mm
 						["20Rnd_556x45_UW_mag",nil,125], // 5.56 Ammo
 						["30Rnd_556x45_Stanag",nil,300], // 5.56 Stanag
+						["30Rnd_45ACP_Mag_SMG_01",nil,300], // Vermin ammo
+						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,300], // Vermin ammo
 						["30Rnd_65x39_caseless_green",nil,275] // 6.5mm Caseless
 					]
 				];
