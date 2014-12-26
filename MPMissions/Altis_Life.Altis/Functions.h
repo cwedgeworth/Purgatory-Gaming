@@ -316,6 +316,7 @@ class Life_Client_Core
         class seizePlayerWeapon {};
         class seizePlayerWeaponAction {};
 		class handleDowned {};
+		class copOpener {};
 	};
 	
 	class Gangs
